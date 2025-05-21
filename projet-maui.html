@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application mobile d'entraînement - .NET MAUI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav_logo">Méïssan</a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link active">Projets</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main" style="margin-top:4rem;">
+        <section class="section">
+            <h2 class="section-title">Application mobile d'entraînement - .NET MAUI</h2>
+            <img src="img/maui_toolkit-307243406.png" alt="Application .NET MAUI" class="centered-img" style="max-width:320px; margin-bottom:2rem;">
+            <div class="card__content" style="text-align:left;">
+                <h3>Contexte</h3>
+                <p>
+                    En tant que pratiquant régulier de musculation et de street workout, j’ai ressenti le besoin d’avoir une application mobile personnalisée pour organiser mes séances quotidiennes, suivre ma progression, et garder une trace claire de mes performances.<br><br>
+                    Plutôt que d’utiliser une application tierce, j’ai choisi de développer ma propre application mobile pour répondre à mes besoins spécifiques, à la fois en termes de contenu, de logique et d’ergonomie.
+                </p>
+
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Développement avec <strong>.NET MAUI</strong> (Multi-platform App UI), le framework Microsoft pour créer des applications mobiles multi-plateformes (Android, iOS, Windows) en C#.</li>
+                    <li>Architecture <strong>MVVM</strong> (Modèle-Vue-VueModèle) pour séparer l’interface, les données et la logique métier.</li>
+                </ul>
+
+                <h3>Réalisation</h3>
+                <ul>
+                    <li>Création de séances d'entraînement personnalisées.</li>
+                    <li>Ajout d’exercices, avec nombre de séries, répétitions, charges et temps de repos.</li>
+                    <li>Suivi des performances séance après séance.</li>
+                    <li>Consultation d’un historique des entraînements passés.</li>
+                    <li>Interface épurée, optimisée pour une utilisation rapide en salle ou en extérieur.</li>
+                </ul>
+
+                <h3>Architecture MVVM mise en œuvre</h3>
+                <ul>
+                    <li><strong>Modèle :</strong> structure des données (exercices, séances, historique).</li>
+                    <li><strong>Vue :</strong> pages de l'application (liste des entraînements, formulaire de saisie, historique).</li>
+                    <li><strong>VueModèle :</strong> logique de gestion de l’état, des actions et de la communication entre la vue et le modèle.</li>
+                </ul>
+
+                <h3>Compétences mobilisées</h3>
+                <ul>
+                    <li>- Traiter des demandes concernant les applications (application créée pour répondre à mon besoin personnel de gérer mon sport au quotidien).</li>
+                    <li>- Analyser les objectifs et les modalités d’organisation d’un projet (réflexion sur le besoin et des fonctionnalités nécessaires (bdd, langage utilisé etc...)).</li>
+                    <li>- Déployer un service (déploiement de l'application sur un appareil android).</li>
+                    <li>- Mise en place de mon environnement d'apprentissage personnel (autoformation sur le framework).</li>
+                </ul>
+
+                <h3>Captures d'écran</h3>
+                <div class="screenshots-grid" style="width:100vw; max-width:none; margin-left:50%; transform:translateX(-50%);">
+                    <div style="display: flex; flex-wrap: wrap; gap: 2rem; width: 100%; justify-content: center;">
+                        <div style="flex:0 1 48%; min-width:600px; max-width:1000px; display:flex; flex-direction:column; align-items:center;">
+                            <img src="img/Screenshot_1747820456.png" alt="Page d'ajout" style="width:100%; height:70vh; object-fit:contain; border-radius:0.5rem; box-shadow:0 2px 16px rgba(14,36,49,0.12); margin-bottom:1rem;">
+                            <div class="screenshot-caption">Page d'ajout</div>
+                        </div>
+                        <div style="flex:0 1 48%; min-width:600px; max-width:1000px; display:flex; flex-direction:column; align-items:center;">
+                            <img src="img/Screenshot_1747820472.png" alt="Page de défis" style="width:100%; height:70vh; object-fit:contain; border-radius:0.5rem; box-shadow:0 2px 16px rgba(14,36,49,0.12); margin-bottom:1rem;">
+                            <div class="screenshot-caption">Page de défis</div>
+                        </div>
+                        <div style="flex:0 1 48%; min-width:600px; max-width:1000px; display:flex; flex-direction:column; align-items:center;">
+                            <img src="img/Screenshot_1747820488.png" alt="Page d'entraînement" style="width:100%; height:70vh; object-fit:contain; border-radius:0.5rem; box-shadow:0 2px 16px rgba(14,36,49,0.12); margin-bottom:1rem;">
+                            <div class="screenshot-caption">Page de gestion des exercices</div>
+                        </div>
+                        <div style="flex:0 1 48%; min-width:600px; max-width:1000px; display:flex; flex-direction:column; align-items:center;">
+                            <img src="img/Screenshot_1747820493.png" alt="Page d'ajout de notes" style="width:100%; height:70vh; object-fit:contain; border-radius:0.5rem; box-shadow:0 2px 16px rgba(14,36,49,0.12); margin-bottom:1rem;">
+                            <div class="screenshot-caption">Page d'ajout de notes</div>
+                        </div>
+                        <div style="flex:0 1 48%; min-width:600px; max-width:1000px; display:flex; flex-direction:column; align-items:center;">
+                            <img src="img/Screenshot_1747820510.png" alt="Page d'historique des défis réalisés" style="width:100%; height:70vh; object-fit:contain; border-radius:0.5rem; box-shadow:0 2px 16px rgba(14,36,49,0.12); margin-bottom:1rem;">
+                            <div class="screenshot-caption">Page d'historique des défis réalisés</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html#work" class="button" style="margin-top:2rem;">Retour aux projets</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

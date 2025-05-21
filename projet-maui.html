@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet GSB Frais - Présentation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav_logo">Méïssan</a>
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link active">Projets</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main" style="margin-top:4rem;">
+        <section class="section">
+            <h2 class="section-title">GSB Frais - Application de gestion des frais professionnels</h2>
+            <img src="img/maui_toolkit-307243406.png" alt="GSB Frais" class="centered-img" style="max-width:320px; margin-bottom:2rem;">
+            <div class="card__content" style="text-align:left;">
+                <h3>Contexte</h3>
+                <p>
+                    L'application Web <strong>GSB_AppliMVCPOO_VFinale</strong> est développée en PHP en utilisant la Programmation Orientée Objet (POO) et suit l'architecture MVC (Modèle-Vue-Contrôleur). Elle repose sur une base de données MySQL.<br><br>
+                    Son objectif est de gérer les frais de déplacement des collaborateurs de l'entreprise GSB :
+                </p>
+                <ul>
+                    <li>Les <strong>visiteurs médicaux</strong> peuvent saisir et suivre leurs dépenses professionnelles.</li>
+                    <li>Les <strong>comptables</strong> peuvent vérifier, modifier et valider ces fiches avant d'effectuer les paiements.</li>
+                </ul>
+                <p>
+                    Le projet s'appuie sur une version existante déjà fonctionnelle pour les visiteurs. Nous avons pris en charge le développement de la partie comptable, ce qui a nécessité :
+                </p>
+                <ul>
+                    <li>L'ajout d'une nouvelle table dédiée dans la base de données.</li>
+                    <li>La création des modèles, contrôleurs et vues pour la gestion des fiches de frais côté comptable.</li>
+                    <li>La vérification des justificatifs et du kilométrage, la possibilité de corrections manuelles, et l'automatisation de la génération des fichiers de paiement mensuels.</li>
+                </ul>
+
+                <h3>Réalisation</h3>
+                <ul>
+                    <li>Authentification différenciée pour visiteurs et comptables</li>
+                    <li>Saisie, modification et suivi des frais (forfaitaires et hors forfait) pour les visiteurs</li>
+                    <li>Vérification, correction et validation des fiches de frais par les comptables</li>
+                    <li>Gestion des justificatifs et du kilométrage</li>
+                    <li>Automatisation de la génération des fichiers de paiement mensuels</li>
+                </ul>
+
+                <h3>Compétences mobilisées</h3>
+                <ul>
+                    <li>- Traiter des demandes concernant les applications (application créée pour répondre à mon besoin personnel de gérer mon sport au quotidien).</li>
+                    <li>- Analyser les objectifs et les modalités d’organisation d’un projet (réflexion sur le besoin et des fonctionnalités nécessaires (bdd, langage utilisé etc...)).</li>
+                    <li>- Déployer un service (déploiement de l'application sur un appareil android).</li>
+                    <li>- Mise en place de mon environnement d'apprentissage personnel (autoformation sur le framework).</li>
+                </ul>
+
+                <h3>Captures d'écran</h3>
+                <div class="screenshots-grid" style="justify-items:center;">
+                    <div class="screenshot-block">
+                        <img src="img/Screenshot_1747820456.png" alt="Page d'ajout">
+                        <div class="screenshot-caption">Page d'ajout</div>
+                    </div>
+                    <div class="screenshot-block">
+                        <img src="img/Screenshot_1747820472.png" alt="Page de défis">
+                        <div class="screenshot-caption">Page de défis</div>
+                    </div>
+                    <div class="screenshot-block">
+                        <img src="img/Screenshot_1747820488.png" alt="Page d'entraînement">
+                        <div class="screenshot-caption">Page de gestion des exercices</div>
+                    </div>
+                    <div class="screenshot-block">
+                        <img src="img/Screenshot_1747820493.png" alt="Page d'ajout de notes">
+                        <div class="screenshot-caption">Page d'ajout de notes</div>
+                    </div>
+                    <div class="screenshot-block">
+                        <img src="img/Screenshot_1747820510.png" alt="Page d'historique des défis réalisés">
+                        <div class="screenshot-caption">Page d'historique des défis réalisés</div>
+                    </div>
+                </div>
+                <a href="index.html#work" class="button" style="margin-top:2rem;">Retour aux projets</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
